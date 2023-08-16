@@ -13,7 +13,7 @@ html{
 /* font, background adjust*/
 body {
 	font-family: Arial;
-	color: #111111;
+	color: 	#6495ED;
 	background-color: #ffffff;
 	display: flex;
 	flex-direction: column;
@@ -78,24 +78,6 @@ h2 {
 	background-position: left;
 	top: 50px;
 	margin-bottom: 10px;
-}
-
-/*Adjust homepage picture correctly*/
-.homepage {
-	display: flex;
-	width: 100%;
-	height: 100%;
-	background-position: center;
-}
-
-/*Adjust geschichte picture correctly*/
-.geschichte {
-	width: 80%;
-	height: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	background-position: center;
-	top: 50px;
 }
 
 /*map adjust*/
