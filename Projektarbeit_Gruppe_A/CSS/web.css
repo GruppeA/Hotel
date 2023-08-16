@@ -71,15 +71,14 @@ h2 {
 	margin-top: 3%;
 }
 
-/*Adjust gif correctly*/
-.gif{
-	width: 6%;
+.hompage {
+	width: 80%;
+	height: 60%;
+	margin-left: auto;
 	margin-right: auto;
-	background-position: left;
+	background-position: center;
 	top: 50px;
-	margin-bottom: 10px;
 }
-
 
 /*map adjust*/
 .map {
@@ -97,6 +96,6 @@ footer {
 	text-align: left;
 	width: 100%;
 	margin: 0%;
-	background-color: #3c3c3c;
-	color: #ffffff;
+	background-color: #6495ED;
+	color: #111111;
 }
