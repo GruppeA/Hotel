@@ -71,19 +71,20 @@ h2 {
 	margin-top: 3%;
 }
 
-.hompage {
-	width: 80%;
-	height: 60%;
+.homepic {
+	width: 50%;
+	height: 70%;
 	margin-left: auto;
 	margin-right: auto;
 	background-position: center;
 	top: 50px;
 }
 
+
 /*map adjust*/
 .map {
-	height: 100%;
-	width:100%;
+	height: 50%;
+	width:50%;
 	border:0; 
 	margin-bottom: 240px;
 }
