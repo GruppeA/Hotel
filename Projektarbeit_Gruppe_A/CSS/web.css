@@ -13,7 +13,7 @@ html{
 /* font, background adjust*/
 body {
 	font-family: Arial;
-	color: 	#6495ED;
+	color: #111111;
 	background-color: #ffffff;
 	display: flex;
 	flex-direction: column;
@@ -23,7 +23,7 @@ body {
 
 /*Background adjust*/
 nav {
-	background: #3c3c3c;
+	background: #6495ED;
 	height: 80px;
 	width: 100%;
 	top: 0;
@@ -46,14 +46,14 @@ nav ul li {
 
 /*customize font*/
 nav ul li a {
-	color: #111111;
+	color:  #ffffff;
 	font-size: 13px;
 	text-transform: uppercase;
 }
 
 /*white appearance when selecting the text*/
 a.active,a:hover {
-	background: #ffffff;
+	background: #111111;
 }
 
 /*correct font h1*/
@@ -79,6 +79,7 @@ h2 {
 	top: 50px;
 	margin-bottom: 10px;
 }
+
 
 /*map adjust*/
 .map {
