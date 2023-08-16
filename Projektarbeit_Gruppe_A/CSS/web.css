@@ -100,9 +100,26 @@ footer {
   color: #111111;
 }
 
-footer > table {
+footer table {
   width: 100%;
   padding-left: 25%;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.menue img {
+  display: block;
+  width: 300px;
+}
+
+.menue td,
+.menue th {
+  border: solid;
+  border-left: none;
+  border-top: none;
 }
