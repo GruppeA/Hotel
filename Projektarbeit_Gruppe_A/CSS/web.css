@@ -115,14 +115,16 @@ table {
   margin-bottom: 20px;
 }
 
+.menue {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
 .menue img {
   display: block;
   width: 300px;
 }
 
-.menue td,
-.menue th {
+.menue div {
   border: solid;
-  border-left: none;
-  border-top: none;
 }
