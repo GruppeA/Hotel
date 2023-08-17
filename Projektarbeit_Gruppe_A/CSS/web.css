@@ -76,6 +76,13 @@ h2 {
   margin-top: 3%;
 }
 
+.logo {
+  width: 10%;
+  height: 100%;
+  background-position: left;
+  top: 50px;
+}
+
 .homepicture {
   width: 50%;
   height: 70%;
@@ -84,45 +91,6 @@ h2 {
   background-position: center;
   top: 50px;
 }
-
-.Einzelbett {
-  display: inline-block; 
-  align-items: center;
-}
-
-.Einzelbett img {
-  float: left; 
-  margin-right: 20px; 
-  margin-top: 10px; 
-  height: 30%; 
-  width: 40%;
-}
-
-Doppelbett {
-    display: inline-block; 
-    align-items: center;
-  }
-
-.Doppelbett img {
-    float: left; 
-    margin-right: 20px; 
-    margin-top: 10px; 
-    height: 70%; 
-    width: 40%;
-  }
-
-.Familienbett {
-    display: inline-block; 
-    align-items: center;
-  }
-  
-.Familienbett img {
-    float: left; 
-    margin-right: 20px; 
-    margin-top: 10px; 
-    height: 70%; 
-    width: 40%;
-  }
 
 /*Adjust footer and place it correctly*/
 footer {
