@@ -20,12 +20,14 @@ body {
   margin: auto;
   height: -webkit-fill-available;
 }
+
 .navigation ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #6495ed; /* Hintergrundfarbe in Blau setzen */
+  background-color: #6495ed;
+  /* Hintergrundfarbe in Blau setzen */
 }
 
 .navigation li {
