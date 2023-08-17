@@ -80,12 +80,11 @@ h2 {
   top: 50px;
 }
 
-/*map adjust*/
-.maps {
-  height: 50%;
+.Hotelzimmer {
   width: 50%;
-  border: 0;
-  margin-bottom: 240px;
+  height: 70%;
+  background-position: left;
+  top: 50px;
 }
 
 /*Adjust footer and place it correctly*/
