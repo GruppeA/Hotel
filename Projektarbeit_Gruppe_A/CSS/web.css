@@ -125,6 +125,7 @@ table {
   width: 300px;
 }
 
-.menue div {
+.menue div,
+.menue {
   border: solid;
 }
