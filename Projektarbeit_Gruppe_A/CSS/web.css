@@ -52,16 +52,21 @@ nav ul li a {
 }
 
 /*white appearance when selecting the text*/
-a.active,
+a:active,
 a:hover {
   background: #111111;
+}
+
+a:link,
+a:visited {
+  color: #fff;
 }
 
 /*correct font h1*/
 h1 {
   display: flex;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   margin: 2% auto;
 }
 
@@ -127,7 +132,7 @@ footer {
   width: 100%;
   margin: 0%;
   background-color: #6495ed;
-  color: #111111;
+  color: #fff;
 }
 
 footer table {
@@ -142,15 +147,17 @@ table {
   margin-bottom: 20px;
 }
 
+.menue {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
 .menue img {
   display: block;
   width: 300px;
 }
 
-.menue td,
-.menue th {
+.menue div,
+.menue {
   border: solid;
-  border-left: none;
-  border-top: none;
 }
-
