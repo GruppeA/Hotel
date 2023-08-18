@@ -35,6 +35,8 @@ body {
 }
 
 .navigation li a {
+  justify-content: flex-end; 
+  font-size: 20px ;
   display: block;
   color: #fff;
   text-align: center;
@@ -62,12 +64,13 @@ h2 {
 }
 
 .logo {
-  width: 7%;
-  height: 7%;
+  width: 9%;
+  height: 9%;
   margin-left: auto;
   margin-right: auto;
   background-position: center;
   top: 50px;
+  margin: 0.5em;
 }
 
 .homepicture {
