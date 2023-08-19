@@ -65,6 +65,7 @@ h2 {
   margin-top: 3%;
 }
 
+<<<<<<< Updated upstream
 .logo {
   width: 9%;
   height: 9%;
@@ -73,6 +74,15 @@ h2 {
   background-position: center;
   top: 50px;
   margin: 0.5em;
+=======
+.rechtsbündig {
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start;
+  height: 100vh;
+  padding: 20px;
+>>>>>>> Stashed changes
 }
 
 .homepicture {
@@ -84,6 +94,31 @@ h2 {
   top: 50px;
 }
 
+<<<<<<< Updated upstream
+=======
+/*map adjust*/
+.maps {
+  height: 50%;
+  width: 50%;
+  border: 0;
+  margin-bottom: 240px;
+}
+
+.Bildlinks {
+  width: 30%;
+  height: 50%;
+  background-position: left;
+  top: 50px;
+}
+
+.Bildmitte{
+  width: 30%;
+  height: 50%;
+  margin-right: 10px; 
+}
+
+
+>>>>>>> Stashed changes
 /*Adjust footer and place it correctly*/
 footer {
   position: static;
@@ -130,4 +165,69 @@ table {
 
 .impressumDaten div {
   margin: 50px;
+}
+
+.slider1 {
+  width: 500px;
+  height: 300px;
+  background-color: yellow;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.slider {
+  width: 500px;
+  height: 300px;
+  background-color: yellow;
+  margin: left; 
+  text-align: center;
+  overflow: hidden;
+}
+
+.container {
+  width: 1500px;
+  background-color: pink;
+  height: 300px;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+  left: 10; 
+}
+
+.slide {
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#slide-1:target ~ .image-container {
+  left: 0;
+}
+
+#slide-2:target ~ .image-container {
+  left: -500px;
+}
+
+#slide-3:target ~ .image-container {
+  left: -1000px;
+}
+
+.buttons {
+  position: relative;
+  top: -30px;
+}
+
+.buttons a {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background-color: lightgreen;
 }
