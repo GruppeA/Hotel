@@ -89,6 +89,16 @@ h2 {
   text-align: center;
 }
 
+.hotelmenu {
+  margin-left: 20px;
+div.container {
+  text-align: center;
+}
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
 div.container {
   text-align: left;
 }
@@ -136,12 +146,16 @@ table {
 }
 
 .impressumDaten,
-.menue {
+.center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .impressumDaten div {
+  margin: 50px;
+}
+
+.karte {
   margin: 50px;
 }
