@@ -90,7 +90,7 @@ h2 {
 }
 
 .hotelmenu {
-  margin-left: 20px; 
+  margin-left: 20px;
 }
 
 /*Adjust footer and place it correctly*/
@@ -131,12 +131,15 @@ table {
 }
 
 .impressumDaten,
-.menue {
+.center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .impressumDaten div {
+  margin: 50px;
+}
+.karte {
   margin: 50px;
 }
