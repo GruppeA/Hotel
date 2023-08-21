@@ -89,8 +89,13 @@ h2 {
   text-align: center;
 }
 
-.hotelmenu {
-  margin-left: 20px; 
+div.container {
+  text-align: center;
+}
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
 }
 
 /*Adjust footer and place it correctly*/
