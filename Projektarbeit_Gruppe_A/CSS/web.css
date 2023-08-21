@@ -90,12 +90,12 @@ h2 {
 }
 
 div.container {
-  text-align: center;
+  text-align: left;
 }
 
 ul.myUL {
   display: inline-block;
-  text-align: left;
+  margin-left: 20px;
 }
 
 /*Adjust footer and place it correctly*/
