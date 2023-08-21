@@ -1,26 +1,24 @@
 <!DOCTYPE html>
-
 <html lang="de">
-
 <head>
   <meta charset="utf-8" />
-  <!-- Die folgende Zeile stellt sicher, dass die Webseite auf verschiedenen Geräten korrekt angezeigt wird. -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="../CSS/web.css" />
+  <style>
+    /* Neuer CSS-Stil für die Verschiebung der Listen nach rechts */
+    .hotelmenu {
+      margin-left: 20px; /* Ändern Sie den Wert entsprechend Ihrer Verschiebungsanforderungen */
+    }
+  </style>
   <title>CsBe Hotel Auswahl</title>
 </head>
-
 <body>
-  <!-- Navigation hinzufügen -->
   <nav>
     <div class="navigation">
-      <!-- Navigation mit Animation -->
       <ul class="nav_s">
         <a href="../Index.html">
-          <!-- Das Hotel-Logo verlinkt zur Startseite -->
-          <img class="logo" src="../Bilder/logo.webp" alt=" logo" />
+          <img class="logo" src="../Bilder/logo.webp" alt="logo" />
         </a>
-        <!-- Navigationslinks -->
         <li><a href="Freizeitaktivitaeten.html">Freizeitaktivitäten</a></li>
         <li><a href="Anreise.html">Anreise</a></li>
         <li><a href="Restaurant.html">Restaurant</a></li>
@@ -43,8 +41,7 @@
           margin-left: 10px;
         " />
     <h3>Im Zimmer inbegriffen</h3>
-    <ul class="shifted-list">
-      <!-- Liste der Annehmlichkeiten -->
+    <ul class="hotelmenu">
       <li>WLAN</li>
       <li>Klimaanlage</li>
       <li>Parkplatz inbegriffen</li>
@@ -54,7 +51,7 @@
       <li>15 Quadratmeter</li>
       <li>Pro Nacht CHF75.- (Erwachsene Alter: +18)</li>
       <li>Pro Nacht CHF70.- (Kinder Alter: 0-17)</li>
-      <li><a href="../Code/Anmeldungsformular.html" class="custom-link">Anmelden</a></li>
+      <li><a href="../Code/Anmeldungsformular.html"><button>Anmelden</button></a></li>
     </ul>
   </div>
 
@@ -69,8 +66,7 @@
           width: 40%;
         " /> 
     <h3>Im Zimmer inbegriffen</h3>
-    <ul class="shifted-list">
-      <!-- Liste der Annehmlichkeiten -->
+    <ul class="hotelmenu">
       <li>WLAN</li>
       <li>Klimaanlage</li>
       <li>Parkplatz inbegriffen</li>
@@ -80,9 +76,8 @@
       <li>30 Quadratmeter</li>
       <li>Pro Nacht CHF90.- (Erwachsene Alter: +18)</li>
       <li>Pro Nacht CHF85.- (Kinder Alter: 0-17)</li>
-      <li><a href="../Code/Anmeldungsformular.html" class="custom-link">Anmelden</a></li>
+      <li><a href="../Code/Anmeldungsformular.html"><button>Anmelden</button></a></li>
     </ul>
-    </div>
   </div>
 
   <!-- Familienzimmer -->
@@ -96,8 +91,7 @@
           width: 40%;
         " />
     <h3>Im Zimmer inbegriffen</h3>
-    <ul class="shifted-list">
-      <!-- Liste der Annehmlichkeiten -->
+    <ul class="hotelmenu">
       <li>WLAN</li>
       <li>Klimaanlage</li>
       <li>Parkplatz inbegriffen</li>
@@ -107,11 +101,13 @@
       <li>40 Quadratmeter</li>
       <li>Pro Nacht CHF110.- (Erwachsene Alter: +18)</li>
       <li>Pro Nacht CHF105.- (Kinder Alter: 0-17)</li>
-      <li><a  href="../Code/Anmeldungsformular.html" class="custom-link">Anmelden</a></p></li>
+      <li><a href="../Code/Anmeldungsformular.html"><button>Anmelden</button></a></li>
     </ul>
   </div>
+
   <br />
   <br />
+
   <footer>
     <table>
       <tr>
@@ -122,7 +118,6 @@
           <p>csbe@gmail.com</p>
         </td>
         <td>
-          <!-- Fusszeilenlinks -->
           <p><a href="Impressum.html">Impressum</a></p>
           <p><a href="Datenschutz.html">Datenschutzerklärung</a></p>
           <p><a href="AGB.html">AGB</a></p>
@@ -131,5 +126,4 @@
     </table>
   </footer>
 </body>
-
 </html>
