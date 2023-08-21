@@ -38,7 +38,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 5px;
-  font-size: 20px ;
+  font-size: 20px;
   display: block;
   color: #fff;
   text-align: center;
@@ -105,12 +105,12 @@ footer {
 }
 
 .custom-link {
-  color: #FF0000; /* Hier wird die Farbe des Links auf Rot (#FF0000) gesetzt. */
+  color: #ff0000; /* Hier wird die Farbe des Links auf Rot (#FF0000) gesetzt. */
   text-decoration: none; /* Entfernt die Standardunterstreichung von Links. */
 }
 
 .custom-link:hover {
-  color: #00FF00; /* Hier wird die Farbe des Links geändert, wenn der Mauszeiger darüber schwebt. */
+  color: #00ff00; /* Hier wird die Farbe des Links geändert, wenn der Mauszeiger darüber schwebt. */
 }
 
 footer table {
@@ -125,22 +125,13 @@ table {
   margin-bottom: 20px;
 }
 
-.menue {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
-
 .menue img {
   display: block;
   width: 300px;
 }
 
-.menue div,
+.impressumDaten,
 .menue {
-  border: solid;
-}
-
-.impressumDaten {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -149,5 +140,3 @@ table {
 .impressumDaten div {
   margin: 50px;
 }
-
-

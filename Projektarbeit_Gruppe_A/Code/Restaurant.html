@@ -1,143 +1,73 @@
 <!DOCTYPE html>
 
 <html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Die folgende Zeile stellt sicher, dass die Webseite auf verschiedenen Geräten korrekt angezeigt wird. -->
+    <meta name="viewport" content="widdiv=device-widdiv, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../CSS/web.css" />
+    <title>CsBe Hotel Restaurant</title>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <!-- Die folgende Zeile stellt sicher, dass die Webseite auf verschiedenen Geräten korrekt angezeigt wird. -->
-  <meta name="viewport" content="widdiv=device-widdiv, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="../CSS/web.css" />
-  <title>CsBe Hotel Restaurant</title>
-</head>
+  <body>
+    <!-- Navigation hinzufügen -->
+    <nav>
+      <div class="navigation">
+        <ul class="nav_s">
+          <a href="../Index.html">
+            <!-- Das Hotel-Logo verlinkt zur Startseite -->
+            <img class="logo" src="../Bilder/logo.webp" alt=" logo" />
+          </a>
+          <!-- Navigationslinks -->
+          <li><a href="Freizeitaktivitaeten.html">Freizeitaktivitäten</a></li>
+          <li><a href="Anreise.html">Anreise</a></li>
+          <li><a href="Restaurant.html">Restaurant</a></li>
+          <li><a href="Hotel.html">Hotel</a></li>
+          <li><a href="../index.html">Home</a></li>
+        </ul>
+      </div>
+    </nav>
 
-<body>
-  <!-- Navigation hinzufügen -->
-  <nav>
-    <div class="navigation">
-      <ul class="nav_s">
-        <a href="../Index.html">
-          <!-- Das Hotel-Logo verlinkt zur Startseite -->
-          <img class="logo" src="../Bilder/logo.webp" alt=" logo" />
-        </a>
-        <!-- Navigationslinks -->
-        <li><a href="Freizeitaktivitaeten.html">Freizeitaktivitäten</a></li>
-        <li><a href="Anreise.html">Anreise</a></li>
-        <li><a href="Restaurant.html">Restaurant</a></li>
-        <li><a href="Hotel.html">Hotel</a></li>
-        <li><a href="../index.html">Home</a></li>
-      </ul>
-    </div>
-  </nav>
+    <h1>Restaurant</h1>
+    <!-- Menüliste -->
+    <article>
+      <div class="menue">
+        <div>
+          <h3>Öffnungszeiten:</h3>
 
-  <h1>Restaurant</h1>
-  <!-- Menüliste -->
-  <article class="menue">
-    <!-- Überschriften für Menüspalten -->
-    <div>Menü</div>
-    <div>Menge</div>
-    <div>Preis</div>
-    <!-- Salate -->
-    <div><img src="../Bilder/salat.webp" alt="Salat" /><b>Salate</b></div>
-    <div></div>
-    <div></div>
-    <!-- Grüner Salat -->
-    <div>Grüner Salat</div>
-    <div>1 Portion</div>
-    <div>5 CHF</div>
-    <!-- Gemischter Salat -->
-    <div>Gemischter Salat</div>
-    <div>1 Portion</div>
-    <div>10 CHF</div>
-    <!-- Pasta -->
-    <div><img src="../Bilder/pasta.jpg" alt="Pasta" /><b>Pasta</b></div>
-    <div></div>
-    <div></div>
-    <!-- Spaghetti Carbonara -->
-    <div>Spaghetti Carbonara</div>
-    <div>1 Portion</div>
-    <div>13 CHF</div>
-    <!-- Spaghetti Bolognese -->
-    <div>Spaghetti Bolognese</div>
-    <div>1 Portion</div>
-    <div>14 CHF</div>
-    <!-- Pizzen -->
-    <div><img src="../Bilder/pizza.jpg" alt="Pizza" /><b>Pizzen</b></div>
-    <div></div>
-    <div></div>
-    <!-- Pizza Margarita -->
-    <div>Pizza Margarita</div>
-    <div>1 Portion</div>
-    <div>11 CHF</div>
-    <!-- Pizza Prosciutto -->
-    <div>Pizza Prosciutto</div>
-    <div>1 Portion</div>
-    <div>15 CHF</div>
-    <!-- Pizza Salami -->
-    <div>Pizza Salami</div>
-    <div>1 Portion</div>
-    <div>16 CHF</div>
-    <!-- Pommes Frites -->
-    <div>
-      <img src="../Bilder/pommes.jpg" alt="Pommes Frites" /><b>Pommes Frites</b>
-    </div>
-    <div></div>
-    <div></div>
-    <!-- Pommes Frites mit Chicken Nuggets -->
-    <div>…mit Chicken Nuggets</div>
-    <div>1 Portion</div>
-    <div>17 CHF</div>
-    <!-- Pommes Frites mit Poulet Flügeln -->
-    <div>…mit Poulet Flügeln</div>
-    <div>1 Portion</div>
-    <div>18 CHF</div>
-    <!-- Pommes Frites mit paniertem Schnitzel -->
-    <div>…mit paniertem Schnitzel</div>
-    <div>1 Portion</div>
-    <div>19 CHF</div>
-    <!-- Getränke -->
-    <div><img src="../Bilder/soda.webp" alt="Getränk" /><b>Getränke</b></div>
-    <div></div>
-    <div></div>
-    <!-- Eistea -->
-    <div>Eistea</div>
-    <div>0,5 Liter</div>
-    <div>3.50 CHF</div>
-    <!-- Cola -->
-    <div>Cola</div>
-    <div>0,5 Liter</div>
-    <div>3.50 CHF</div>
-    <!-- Wasser -->
-    <div>Wasser</div>
-    <div>0,5 Liter</div>
-    <div>2.50 CHF</div>
-    <!-- Bier -->
-    <div>Bier</div>
-    <div>0,5 Liter</div>
-    <div>4 CHF</div>
-    <!-- Ausgewählte Regionale Wein -->
-    <div>Ausgewählte Regionale Wein</div>
-    <div>0,5 Liter</div>
-    <div>20-60 CHF</div>
-  </article>
+          <b>Montag und Dienstag Ruhetag</b>
 
-  <footer>
-    <table>
-      <tr>
-        <td>
-          <p>CsBe Hotel</p>
-          <p>Zieglerstrasse 64</p>
-          <p>3000, 14 Bern</p>
-          <p>csbe@gmail.com</p>
-        </td>
-        <td>
-          <!-- Fusszeilenlinks -->
-          <p><a href="Impressum.html">Impressum</a></p>
-          <p><a href="Datenschutz.html">Datenschutzerklärung</a></p>
-          <p><a href="AGB.html">AGB</a></p>
-        </td>
-      </tr>
-    </table>
-  </footer>
-</body>
+          <p>Mittwoch bis Samstag von 10Uhr bis 23Uhr</p>
 
+          <p>Sonntag von 10Uhr bis 22Uhr</p>
+        </div>
+      </div>
+      <br />
+      <div class="menue">
+        <a href="../PDF/Restaurant-Speisekarte für PDF.pdf"
+          ><button>Menüliste</button></a
+        >
+      </div>
+    </article>
+    <br />
+
+    <footer>
+      <table>
+        <tr>
+          <td>
+            <p>CsBe Hotel</p>
+            <p>Zieglerstrasse 64</p>
+            <p>3000, 14 Bern</p>
+            <p>csbe@gmail.com</p>
+          </td>
+          <td>
+            <!-- Fusszeilenlinks -->
+            <p><a href="Impressum.html">Impressum</a></p>
+            <p><a href="Datenschutz.html">Datenschutzerklärung</a></p>
+            <p><a href="AGB.html">AGB</a></p>
+          </td>
+        </tr>
+      </table>
+    </footer>
+  </body>
 </html>
