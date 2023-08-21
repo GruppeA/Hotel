@@ -91,6 +91,21 @@ h2 {
 
 .hotelmenu {
   margin-left: 20px;
+div.container {
+  text-align: center;
+}
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
+div.container {
+  text-align: center;
+}
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
 }
 
 /*Adjust footer and place it correctly*/
@@ -140,6 +155,7 @@ table {
 .impressumDaten div {
   margin: 50px;
 }
+
 .karte {
   margin: 50px;
 }
