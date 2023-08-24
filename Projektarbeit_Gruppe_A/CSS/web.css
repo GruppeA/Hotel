@@ -57,6 +57,7 @@ h1 {
   justify-content: center;
   align-items: center;
   margin: 2% auto;
+  font-size: 32px;
 }
 
 /*correct font h2*/
@@ -64,6 +65,15 @@ h2 {
   text-align: left;
   margin-top: 3%;
   margin-left: 20px;
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
 }
 
 .logo {
@@ -76,7 +86,7 @@ h2 {
   margin: 0.5em;
 }
 
-.homepicture {
+.startseitebilder {
   width: 40%;
   height: 60%;
   margin-left: auto;
@@ -89,10 +99,6 @@ h2 {
   text-align: center;
 }
 
-ul.myUL {
-  display: inline-block;
-  text-align: left;
-}
 div.container {
   text-align: left;
 }
@@ -102,24 +108,78 @@ ul.myUL {
   margin-left: 20px;
 }
 
-/*Adjust footer and place it correctly*/
-footer {
-  position: static;
-  bottom: 0;
-  height: auto;
+.karte {
   width: 100%;
-  margin: 0%;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.zimmer-container {
+  display: inline-block;
+  align-items: center;
+}
+
+.zimmer-image {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 70%;
+  width: 40%;
+}
+
+.activity img {
+  float: left;
+  margin-right: 20px;
+  margin-top: 10px;
+  height: 70%;
+  width: 40%;
+  background-position: center;
+}
+
+.activity-details {
+  flex-grow: 1;
+}
+
+.activity ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.activity ul li {
+  margin-bottom: 5px;
+}
+
+.activity ul p {
+  margin-top: 0;
+}
+
+form {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-left: 20px; 
+}
+
+/*Adjust footer and place it correctly*/
+/* CSS für den Footer */
+footer {
+  display: block;
+  height: 150px;
+  width: 100%;
+  margin: 0;
   background-color: #6495ed;
   color: #fff;
-}
-
-.custom-link {
-  color: #ff0000; /* Hier wird die Farbe des Links auf Rot (#FF0000) gesetzt. */
-  text-decoration: none; /* Entfernt die Standardunterstreichung von Links. */
-}
-
-.custom-link:hover {
-  color: #00ff00; /* Hier wird die Farbe des Links geändert, wenn der Mauszeiger darüber schwebt. */
+  padding: 20px 0; /* Hinzugefügt, um den Inhalt innerhalb des Footers zu zentrieren */
+  margin-top: auto;
 }
 
 footer table {
@@ -132,6 +192,7 @@ footer table {
 table {
   width: 100%;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .menue img {
@@ -150,6 +211,10 @@ table {
   margin: 50px;
 }
 
-.karte {
-  margin: 50px;
+.activity {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
 }
+
+

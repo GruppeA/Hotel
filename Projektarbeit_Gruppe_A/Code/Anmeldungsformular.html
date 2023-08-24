@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-
 <html lang="de">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="../CSS/web.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../CSS/web.css">
   <title>CsBe Hotel Startseite</title>
 </head>
 
 <body>
-  <!--add navigation-->
+  <!-- Navigationsleiste -->
   <nav>
     <div class="navigation">
-      <ul>
+      <ul class="nav_s">
         <a href="../Index.html">
           <img class="logo" src="../Bilder/logo.webp" alt=" logo" />
         </a>
@@ -27,72 +26,56 @@
     </div>
   </nav>
 
+  <br>
+  <br>
+  <br>
+
+  <!-- Anmeldeformular -->
   <form action="http://localhost:3000/formdata" method="POST">
+    <label for="vorname">Vorname:</label><br>
+    <input type="text" id="vorname" name="Vorname" value=""><br>
 
-    <label for="name">Name:</label><br>
-   
-    <input type="text" id="name" name="Vorname" value=""><br>
+    <label for="nachname">Nachname:</label><br>
+    <input type="text" id="nachname" name="Nachname" value=""><br>
 
-    <label for="name">Nachname:</label><br>
-
-    <input type="text" id="name" name="Nachname" value=""><br>
-   
     <label for="email">E-Mail:</label><br>
-   
     <input type="email" id="email" name="email" value=""><br>
-   
-    <label for="phone">Telefonnummer:</label><br>
-   
-    <input type="tel" id="phone" name="phone" value=""><br>
-   
-    <label for="dob">Geburtsdatum:</label><br>
-    <input type="date" id="dob" name="dob" value=""><br>
 
-    <label for="dob">Buchen von:</label><br>
-    <input type="date" id="dob" name="dob" value=""><br>
+    <label for="telefon">Telefonnummer:</label><br>
+    <input type="tel" id="telefon" name="phone" value=""><br>
 
-    <label for="dob">Buchen bis:</label><br>
-    <input type="date" id="dob" name="dob" value=""><br>
-   
-    <label for="address">Adresse:</label><br>
-   
-    <input type="text" id="address" name="address" value=""><br>
-   
-    <label for="city">Stadt:</label><br>
-   
-    <input type="text" id="city" name="city" value=""><br>
-   
-    <label for="postcode">Postleitzahl:</label><br>
-   
-    <input type="text" id="postcode" name="postcode" value=""><br><br>
-   
-    <input type="submit"  value="Speichern">
-   
-   </form>
+    <label for="geburtstag">Geburtsdatum:</label><br>
+    <input type="date" id="geburtstag" name="dob" value=""><br>
 
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
+    <label for="buchung-von">Buchen von:</label><br>
+    <input type="date" id="buchung-von" name="buchung-von" value=""><br>
 
+    <label for="buchung-bis">Buchen bis:</label><br>
+    <input type="date" id="buchung-bis" name="buchung-bis" value=""><br>
+
+    <label for="adresse">Adresse:</label><br>
+    <input type="text" id="adresse" name="address" value=""><br>
+
+    <label for="stadt">Stadt:</label><br>
+    <input type="text" id="stadt" name="city" value=""><br>
+
+    <label for="plz">Postleitzahl:</label><br>
+    <input type="text" id="plz" name="postcode" value=""><br><br>
+
+    <label for="stadt">Erwachsene:</label><br>
+    <input type="text" id="stadt" name="adult" value=""><br>
+
+    <label for="stadt">Kinder:</label><br>
+    <input type="text" id="stadt" name="childern" value=""><br>
+
+    <a href="../Index.html"><button>Speichern</button></a>
+  </form>
+
+  <br>
+  <br>
+  <br>
+
+  <!-- Footer -->
   <footer>
     <table>
       <tr>
@@ -103,13 +86,12 @@
           <p>csbe@gmail.com</p>
         </td>
         <td>
-          <p><a href="Code/Impressum.html">Impressum</a></p>
-          <p><a href="Code/Datenschutz.html">Datenschutzerklärung</a></p>
-          <p><a href="Code/AGB.html">AGB</a></p>
+          <p><a href="Impressum.html">Impressum</a></p>
+          <p><a href="Datenschutz.html">Datenschutzerklärung</a></p>
+          <p><a href="AGB.html">AGB</a></p>
         </td>
       </tr>
     </table>
   </footer>
 </body>
-
 </html>
